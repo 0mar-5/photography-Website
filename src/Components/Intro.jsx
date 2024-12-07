@@ -1,4 +1,5 @@
 import natureImg from "../Images/nature.jpg";
+import { Link } from "react-router-dom";
 
 function Intro() {
   return (
@@ -10,7 +11,9 @@ function Intro() {
           Capture moments, tell stories, and create memories that last a
           lifetime.
         </p>
-        <button>Explore Now</button>
+        <button>
+          <Link to="gallery">Explore Now</Link>
+        </button>
       </div>
       <div className="image">
         <img src={natureImg} alt="nature" />

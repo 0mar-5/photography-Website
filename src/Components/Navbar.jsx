@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav className="nav-container">
@@ -10,10 +12,10 @@ function Navbar() {
       </div>
       <ul className="nav-links">
         <li>
-          <a>Home</a>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <a>Gallery</a>
+          <NavLink to="gallery">Gallery</NavLink>
         </li>
       </ul>
     </nav>
