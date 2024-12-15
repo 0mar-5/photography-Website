@@ -1,5 +1,6 @@
-import natureImg from "../Images/nature.jpg";
+import natureImg from "../../Images/nature.jpg";
 import { Link } from "react-router-dom";
+import "./Intro.css";
 
 function Intro() {
   return (

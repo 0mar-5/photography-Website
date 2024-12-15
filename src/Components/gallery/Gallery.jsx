@@ -1,3 +1,5 @@
+import "./Gallery.css";
+
 function Gallery() {
   const imageURL = [
     "https://media.geeksforgeeks.org/wp-content/uploads/20240122102942/1a-(2).jpg",
